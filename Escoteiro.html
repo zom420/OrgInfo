@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Escoteiros</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <!--Implementação da NavBar-->
+  <body>
+    <header>
+        <nav class="menu">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img class="puts" src="img/a.png"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down desktop">
+                    <li><a href="sass.html">Inicio</a></li>
+                </ul>
+            </div>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Inicio</a></li>
+            </ul>
+        </nav>
+        
+        <!--"Título" do site-->
+        <div class="col s12 m12 titulo center">
+            <h1>96° Grupo Escoteiro João Melchior Bosco - RJ</h1>
+        </div>
+    </header>
+    
+    <!--Implementação do conteúdo do site (sessão "sobre")-->
+    <section class="col s12 m12 sobre center">
+        <div class="row">
+            <h3>Sobre</h3>
+            <div class="col s12 m12 texto-sobre">
+                <span>
+                    “O Escotismo é um movimento educacional que, por meio de atividades variadas e atraentes, 
+                    incentiva os jovens a assumirem seu próprio desenvolvimento, a se envolverem com a comunidade, 
+                    formando verdadeiros líderes. Acreditamos que, por meio da proatividade e da preocupação com o próximo e com 
+                    o meio ambiente, podemos formar jovens engajados em construir um mundo melhor, mais justo e mais fraterno.” 
+                </span>
+            </div>
+            <div class="row">
+                    <h3>Propósito</h3>
+                    <div class="col s12 m12 texto-sobre">
+                        <span>
+                                O propósito dos escoteiros é contribuir para que os jovens assumam seu próprio desenvolvimento,
+                                especialmente do caráter, ajudando-os a realizar suas plenas potencialidades físicas, intelectuais,
+                                sociais, afetivas e espirituais, como cidadãos responsáveis, participantes e úteis em suas comunidades
+                                
+                                
+                        </span>
+                    </div>
+                </div>
+            <div class="col s12 m6 center">
+                <img class="russel" src="img/russel.png">
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(".button-collapse").sideNav();
+    </script>
+  </body>
+</html>
